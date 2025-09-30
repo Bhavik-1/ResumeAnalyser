@@ -141,8 +141,7 @@ if uploaded_file is not None:
             # -------------------------------
             import google.generativeai as genai
 
-            # Configure the API key
-            genai.configure(api_key='AIzaSyDjfigK372IrNsutIcBSLs0bMwMZIuKdzw')
+    
 
             # Initialize the Gemini model
             model = genai.GenerativeModel('gemini-2.5-flash')
@@ -168,4 +167,5 @@ if uploaded_file is not None:
 
             # Display the AI-generated recommendations
             st.subheader("Recommendations")
+
             st.markdown(response.text)
