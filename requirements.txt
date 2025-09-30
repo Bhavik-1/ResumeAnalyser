@@ -1,0 +1,9 @@
+streamlit	
+pandas	
+joblib	
+matplotlib	
+seaborn	
+wordcloud	
+nltk	
+pdfplumber	
+python-dotenv	
